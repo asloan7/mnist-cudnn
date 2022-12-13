@@ -6,7 +6,7 @@ Transparent CUDNN / CUBLAS usage for the deep learning training using MNIST data
 ```bash
 $ git clone https://github.com/haanjack/cudnn-mnist-training
 $ cd cudnn-mnist-training
-$ bash download-mnist-dataset.sh
+$ bash ./download-mnist.sh
 $ make
 $ ./train
 ```
